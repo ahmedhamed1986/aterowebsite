@@ -31,7 +31,7 @@ if ($data['payment_status'] == 'Completed') {
     // Check if payment amount and currency match
     if ($payment_amount == 0.01 && $payment_currency == 'USD') {
         // Send the eBook
-        $email_message = "Dear Customer,\n\nThank you for purchasing the 'Custom SolidWorks Add-ons eBook'.\n\nYou can download your eBook using the link below:\n\nhttps://www.aterosolutions.com.com/downloads/Deploy _Your_Add-in_to_The_Task_pane.pdf\n\nIf you have any issues, please contact us.\n\nBest Regards,\nYour Company Name";
+        $email_message = "Dear Customer,\n\nThank you for purchasing the 'Custom SolidWorks Add-ons eBook'.\n\nYou can download your eBook using the link below:\n\nhttps://www.aterosolutions.com.com/downloads/test.pdf\n\nIf you have any issues, please contact us.\n\nBest Regards,\nYour Company Name";
         
         $headers = "From: no-reply@aterosolutions.com\r\n";
         $headers .= "Reply-To: support@yaterosolutions.com\r\n";
